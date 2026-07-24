@@ -32,7 +32,7 @@ PRINTER_PORT = 9100
 # ^PQ sets the number of label you want to print, eg. 10
 ZPL_CODE = """
 ^XA
-^FO50,50^A0N,50,50^FDSeelig Group^FS
+^FO50,50^A0N,50,50^FDTest print^FS
 ^PQ5
 ^XZ
 """
